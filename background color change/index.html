@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change background color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="changeColor()">Click me</button>
+
+    <script>
+        function changeColor() {
+            const colors = ['violet', 'light red', 'black', 'blue', 'pink', 'light blue', 'light orange', 'purple', 'brown', 'white'];
+            const colorIndex = Math.floor(Math.random() * colors.length);
+            document.body.style.backgroundColor = colors[colorIndex];
+        }
+    </script>
+</body>
+</html>

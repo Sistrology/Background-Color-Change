@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 5rem;
+    border-radius: 10px ;
+    background-color: black;
+    color: aliceblue;
+    outline: none;
+    font-size: larger;
+    height: 30px;
+    border: none;
+}
